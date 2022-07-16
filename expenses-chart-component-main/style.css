@@ -85,7 +85,7 @@ h2,h1 {
 
 
 .spending{
-    background-color: white;
+    background-color: hsl(33, 100%, 98%);
     flex-direction: column;
 }
 

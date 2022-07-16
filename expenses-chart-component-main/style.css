@@ -205,14 +205,14 @@ flex-direction: column;
 
 @media screen and (min-width:1101px) and (max-width:1249px){
     .expense-card{
-        width: 35%;
+        width: 45%;
     }
 
 }
 
 @media screen and (min-width:1250px){
     .expense-card{
-        width: 30%;
+        width: 40%;
     }
 
 }

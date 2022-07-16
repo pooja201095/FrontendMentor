@@ -60,15 +60,15 @@ hr {
     font-size: 0.82rem;
 }
 
-.total-spend h1 {
+.total-spend h2 {
     grid-row: 2;
     font-size: 1.6rem;
     color: hsl(25, 47%, 15%);
 }
 
-h2 {
+h2,h1 {
     font-size: 1.5rem;
-    font-weight: 400;
+    font-weight: 700;
 }
 
 .percent {
@@ -78,8 +78,9 @@ h2 {
     align-items: flex-end;
 }
 
-.percent h6{
-    color: hsl(25, 47%, 15%);;
+.percent .value {
+    color: hsl(25, 47%, 15%);
+    font-weight: 700;
 }
 
 
@@ -88,7 +89,7 @@ h2 {
     flex-direction: column;
 }
 
-.spending h2 {
+.spending h1 {
     font-weight: 700;
     color: hsl(25, 47%, 15%);
     font-size: 1.3rem;
